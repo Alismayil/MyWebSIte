@@ -1,0 +1,23 @@
+.modeBtn{
+   width: 30px;
+   height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    color: var(  --bg-color-3);
+border: 1px solid var(  --bg-color-3);
+}
+:root{
+    --bg-color-1: #628ECB;
+    --bg-color-2: #f0f3fa;
+    --bg-color-3: gray;
+    --bg-color-4: #d5deef;
+
+}
+.dark{
+    --bg-color-1: gray;
+    --bg-color-2: black;
+    --bg-color-3: gold;
+    --bg-color-4: rgb(199, 193, 193)   ;
+
+}

@@ -1,0 +1,45 @@
+.header{
+    background-color: var(--bg-color-1);
+    max-width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+
+
+}
+.logo{
+    display: flex;
+}
+.logo i{
+    color: #d5deef;
+    font-size: 50px;
+}
+.logo p{
+    color: #d5deef;
+    font-size: 20px;
+}
+.choose ul{
+    display: flex;
+    list-style: none;
+    color: #d5deef;
+    gap: 25px;
+    font-size: 20px;
+}
+.choose ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+.phone{
+    font-size: 30px;
+    display: flex;
+    color: #d5deef;
+gap: 20px;
+align-items: center;
+
+
+}
+.phone p{
+    font-size: 17px;
+}

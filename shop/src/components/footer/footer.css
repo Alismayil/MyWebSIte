@@ -1,0 +1,101 @@
+.footer{
+    background-color:var(--bg-color-1);
+    max-width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+}
+.icon{
+    display: flex;
+}
+.icon i{
+    font-size: 50px;
+    color: #d5deef;
+}
+.icon p{
+    font-size: 20px;
+    color: #d5deef;
+}
+.text{
+    display: flex;
+    gap: 50px;
+    color: #d5deef;
+    font-size: 20px;
+
+}
+
+.text p:hover{
+    color: black;
+    cursor: pointer;
+
+}
+.social_media{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   justify-content: center;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #d5deef;
+}
+.number i{
+    font-size: 40px;
+}
+.media_icon_left{
+     display: flex;
+     gap: 10px;
+    
+}
+.media_icon_left i{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #d5deef;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d5deef;
+    transform: rotate(0deg);
+    transition: 1s;
+
+    
+}
+.media_icon_left i:hover{
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(50deg);
+}
+.media_icon_right{
+    display: flex;
+    gap: 10px;
+   
+}
+.media_icon_right i{
+   width: 50px;
+   height: 50px;
+   border: 1px solid #d5deef;
+   border-radius: 50%;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #d5deef;
+   transform: rotate(0deg);
+   transition: 1s;
+
+   
+}
+.media_icon_right i:hover{
+   color: black;
+   cursor: pointer;
+   transition: 1s;
+   transform: rotate(50deg);
+}
